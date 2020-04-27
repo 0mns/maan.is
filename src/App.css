@@ -13,11 +13,147 @@ body{
   
   margin: 0;
 }
+a{
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  color: #EAE5D8;
+  text-decoration: none;
+  
+
+}
 .container{
   max-width: 900px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
-.windowelement{
-  width: 300px;
+.hero{
+  height: 301px;
+    margin-top: 120px;
+    border-bottom: 2px solid;
+
+}
+
+.hero h1{
+  font-size: 88px;
+  margin: 0;
+}
+
+.hero p{
+font-size: 30px;
+}
+
+.navbar{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact{
+  text-align: right;
+}
+.contactlinks a{
+ 
+ text-decoration: underline;
+  color: #EAE5D8;
+  font-size: 30px;
+  cursor: pointer !important;
+}
+input{
+  background-color: #101010;
+  color: #EAE5D8;
+  font-size: 17px;
+  width: 100%;
+  padding: 6px 9px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border: 1px solid #EAE5D8;
+  box-sizing: border-box;
+  outline: none;
+ 
+}
+.emailname{
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: repeat(1, 1fr);
+}
+.msg{
+  height: 350px;
+  border-bottom: 2px solid #EAE5D8;
+}
+button{
+  color: #101010;
+  background-color: #EAE5D8;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+ 
+  cursor: pointer;
+  width: 100%;
+}
+
+textarea{
+  height: 100px;
+  background-color: #101010;
+  color: #EAE5D8;
+  font-size: 17px;
+  width: 100%;
+  padding: 6px 9px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border: 1px solid #EAE5D8;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+}
+
+input::placeholder{
+  color: rgba(234, 229, 216, 0.432);
+}
+
+.contactlinks{
+  margin-top: 30px;
+}
+.contactlinks div{
+  cursor: pointer;
+  margin-top: 21px;
+}
+
+.App{
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main{
+  flex: 1 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .hero h1{
+    font-size: 110px;
+  }
+  .hero{
+    height: 249px;
+    margin-top: 103px;
+  }
+  textarea{
+    height: 130px;
+  }
+  
+  .emailname{
+    grid-gap: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .msg{
+    height: 300px;
+  }
+}
+
+.footer{
+  padding: 20px 0px;
 }
