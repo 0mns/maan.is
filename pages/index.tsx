@@ -20,7 +20,7 @@ const Home: NextPage = () => {
                 <main className=' '>
                     <div className=''>
                         <div className=''>
-                            <h1 className='uppercase text-7xl text-9xl'>Ahmed Maanis</h1>
+                            <h1 className='uppercase text-7xl md:text-9xl'>Ahmed Maanis</h1>
                         </div>
                     </div>
                 </main>
