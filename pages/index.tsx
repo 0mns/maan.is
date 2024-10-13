@@ -14,20 +14,25 @@ const Home: NextPage = () => {
                 />
             </Head>
 
-            <div className='container'>
-                <main className='main '>
-                    <div className='hero'>
-                        <div className='inline-flex'>
-                            <h1 className='anim-typewriter '>hello world.</h1>
+            <div className='container mx-auto px-2 mt-40'>
+                <div className='flex flex-col min-h-screen'>
+
+                <main className=' '>
+                    <div className=''>
+                        <div className=''>
+                            <h1 className='uppercase text-9xl'>Ahmed Maanis</h1>
                         </div>
                     </div>
                 </main>
-                <p>Developer based in Maldives 🇲🇻.</p>
+                <div className='mt-10 py-2 border-b border-t border-black '>
 
-                <div className='contactlinks'>
+                <p className='text-2xl'>Visual communication & story telling</p>
+                </div>
+
+                <div className='contactlinks mt-32'>
                     <div>
-                        <Link href={'https://github.com/0mns'}>
-                            Github &#8599;
+                        <Link href={'https://be.net/maanis'}>
+                            behance &#8599;
                         </Link>
                     </div>
                     <div>
@@ -41,6 +46,12 @@ const Home: NextPage = () => {
                         </Link>
                     </div>
                 </div>
+                <footer className='mt-auto'>
+                &copy; 2024 | BASED IN MALDIVES
+                </footer>
+                </div>
+
+               
             </div>
         </>
     );
