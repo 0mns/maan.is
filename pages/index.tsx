@@ -31,7 +31,7 @@ const Home: NextPage = () => {
 
                 <div className='contactlinks mt-32'>
                     <div>
-                        <Link href={'https://be.net/maanis'}>
+                        <Link href={'https://be.net/manis'}>
                             behance &#8599;
                         </Link>
                     </div>
